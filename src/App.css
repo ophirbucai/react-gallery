@@ -1,5 +1,39 @@
+body {
+    background: #030609;
+}
+
 .App {
     width: 900px;
     margin: 0 auto;
     text-align: center;
 }
+
+h1 {
+    color: gainsboro;
+    font-family: "Avenir Next", sans-serif;
+}
+
+select {
+    width: 70%;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0 0 px 2px whitesmoke;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    appearance: none;
+    user-select: none;
+}
+
+select:focus option:first-of-type {
+    display: none;
+}
+img {
+    opacity: 0.5;
+    transition: opacity 180ms;
+}
+img:hover {
+    opacity: 1;
+}
+
